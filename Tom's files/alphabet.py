@@ -1,4 +1,4 @@
-alphabet = [
+alphabets = [
     "a",
     "b",
     "c",
