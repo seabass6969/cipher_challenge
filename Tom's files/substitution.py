@@ -1,8 +1,8 @@
-from alphabet import alphabets
+import alphabet as a
 
 inputtext = (open("text.txt", "r"))
 textlist = inputtext.readlines()
-output = 0
+output = ""
 
 textstr = textlist[0].lower()
 
@@ -10,6 +10,14 @@ textlist = []
 for i in textstr:
     textlist += i
 
+outputlist = []
 
+for i in textlist:
+    x = a.alphabets.index(i)
+    outputlist += a.shift[x]
 
-print(textlist)
+for i in outputlist:
+    output += i
+    
+output = ""
+print(output)
