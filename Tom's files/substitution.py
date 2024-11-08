@@ -2,7 +2,7 @@ import alphabet as a
 
 inputtext = (open("text.txt", "r"))
 textlist = inputtext.readlines()
-output = ""
+
 
 textstr = textlist[0].lower()
 
@@ -15,9 +15,8 @@ outputlist = []
 for i in textlist:
     x = a.alphabets.index(i)
     outputlist += a.shift[x]
-
+output = ""
 for i in outputlist:
     output += i
 
-output = ""
 print(output)
