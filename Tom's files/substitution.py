@@ -18,6 +18,6 @@ for i in textlist:
 
 for i in outputlist:
     output += i
-    
+
 output = ""
 print(output)
