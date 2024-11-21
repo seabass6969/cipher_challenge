@@ -10,6 +10,14 @@ for i in textstr:
     if i in a.alphabets:
         frequencylist[a.alphabets.index(i)] += 1
 counter = 0
-while counter < 25:
-    print(a.alphabet[counter], frequencylist[counter])
+
+newalphabet = ["","","","","","","","","","","","","","","","","","","","","","","","","",""]
+sortednums = sorted(frequencylist)
+for i in a.alphabets:
+    print(newalphabet)
+    newalphabet[sortednums.index(frequencylist[a.alphabets.index(i)])] = i
+
+
+while counter < 26:
+    print(newalphabet[counter], sortednums[counter])
     counter += 1
