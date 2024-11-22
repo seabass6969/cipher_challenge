@@ -17,6 +17,6 @@ for i in textstr2:
     count += 1
     output += i
     if count % 6 == 0:
-        output += ""
+        output += " "
 
 print(output)
