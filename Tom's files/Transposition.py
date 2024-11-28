@@ -15,7 +15,7 @@ for i in textstr:
     if len(group) == groupnum:
         for x in group:
             grouplist += x
-        groupstr += grouplist[4] + grouplist[5] + grouplist[3] + grouplist[1] + grouplist[0] + grouplist[2]
+        groupstr += grouplist[0] + grouplist[5] + grouplist[3] + grouplist[4] + grouplist[2] + grouplist[1]
         output += groupstr
         reset = True
     if reset:    
