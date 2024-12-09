@@ -14,7 +14,7 @@ for i in textstr:
     x = a.alphabets.index(i.lower()) 
     textstrnum.append(x)
 
-key = ["S", "A", "L", "E", "M"]
+key = ["O","R","T","H","U","S"]
 numkey = []
 
 for i in key:

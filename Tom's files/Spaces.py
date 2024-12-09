@@ -20,3 +20,7 @@ for i in textstr2:
         output += ""
 
 print(output)
+
+output = output[::-1]
+
+print(output)

@@ -12,6 +12,7 @@ for i in textstr:
 
 outputlist = []
 
+
 for i in textlist:
     x = a.alphabets.index(i)
     outputlist += a.shift[x]
