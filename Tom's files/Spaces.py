@@ -16,11 +16,7 @@ output = ""
 for i in textstr2:
     count += 1
     output += i
-    if count % 6 == 0:
+    if count % 4 == 0:
         output += ""
-
-print(output)
-
-output = output[::-1]
 
 print(output)
